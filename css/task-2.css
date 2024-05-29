@@ -1,0 +1,16 @@
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+}
+
+li {
+  width: 360px;
+  height: 300px;
+}
+
+img {
+  width: 32%;
+  height: auto;
+}

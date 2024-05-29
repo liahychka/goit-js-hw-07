@@ -1,0 +1,18 @@
+input {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+}   
+
+placeholder {
+    font: 400 16px / 1.5 "Montserrat", sans-serif;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+h1 {
+    font: 600 24px / 1.33333 "Montserrat", sans-serif;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}

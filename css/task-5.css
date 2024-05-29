@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 8px;
+    padding: 100px 88px;
+    width: 345px;
+    height: 280px;
+    background: #fff;
+}
+
+p {
+    font: 400 16px / 1.5 "Montserrat", sans-serif;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 148px;
+    height: 40px;
+    background: #4e75ff;
+    font: 500 16px / 1.5 "Montserrat", sans-serif;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border: none;
+}
+
