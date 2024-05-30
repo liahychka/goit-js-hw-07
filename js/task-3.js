@@ -1,11 +1,7 @@
-const inputElem = document.querySelector('input#name-input'); 
-inputElem.addEventListener('input', onChangeInput);
+const inputElem = document.querySelector('#name-input');
+const inputSpan = document.querySelector('#name-output');
 
-function onChangeInput() {
-    const inputSpan = document.querySelector('span#name-output'); 
-    if (inputElem.value.trim() === '') {
-        console.log('Hello, Anonymous');
-    } else {
-        console.log(`Hello, ${inputElem.value}`);
-    }
-}
+inputElem.addEventListener('input', event => {
+  const twoValue = event.currentTarget.value.trim();
+  inputSpan.textContent = twoValue === '' ? 'Anonymous' : twoValue;
+});
